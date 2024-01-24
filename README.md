@@ -1,1 +1,3 @@
-台中教育大學 陳孟廷
+git config --global user.name "[meng115]"
+
+git config --global user.email "[daniel613396@gmail.com]"
