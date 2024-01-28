@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>表單填寫</title>
+        <meta charset="UTF-8"
+        <!-- 資訊 -->
+    </head>
+
+    <body>
+        <h1>表單練習</h1>
+        <form>
+                <label> 姓名： </label>
+                <input type="text" name="username" size="25" placeholder="輸入姓名">
+                <br>
+                <label> 密碼： </label>
+                <input type="password" name="userpassword" size="25" placeholder="輸入密碼">
+                <br>
+                <label> 生日： </label>
+                <input type="date" name="userbirthday" size="30">
+                <br>
+                <br>
+                <label> 選擇性別： </label>
+                <br>
+                <br>
+                <input type="radio" name="usergender" value="gender1">男
+                <br>
+                <input type="radio" name="usergender" value="gender2">女
+                <br>
+                <br>
+                <label> 選擇擅長程式語言： </label>
+                <br>
+                <br>
+                <input type="checkbox" name="userproject[]" value="project1">HTML
+                <br>
+                <input type="checkbox" name="userproject[]" value="project2">CSS
+                <br>
+                <input type="checkbox" name="userproject[]" value="project3">Javascript
+                <br>
+                <input type="checkbox" name="userproject[]" value="project4">C/C++
+                <br>
+                <input type="checkbox" name="userproject[]" value="project5">Java
+                <br>
+                <input type="checkbox" name="userproject[]" value="project6">Python
+                <br>
+                <br>
+                <label> 就讀年級： </label>
+                <select name="usergrade[]" size="1">
+                    <option value="grade1">大一</option>
+                    <option value="grade2">大二</option>
+                    <option value="grade3">大三</option>
+                    <option value="grade4">大四</option>
+                    <option value="grade11">碩一</option>
+                    <option value="grade12">碩二</option>
+                </select>
+                <br>
+                <label> Email: </label>
+                <input type="email" name="usermail" size="20" placeholder="輸入Email">
+                <br>
+                <br>
+                <label> 備註： </label>
+                <br>
+                <br>
+                <textarea class="form-control" id="comments" name="comments" placeholder="輸入備註" rows="2"></textarea>
+                <br>
+                <br>
+                <label> 上傳頭像圖片: </label>
+                <input type="file" name="userfile">
+                <br>
+
+            <input type="submit" value="submit">
+        </form>
+
+    </body>
+
+
+</html>
